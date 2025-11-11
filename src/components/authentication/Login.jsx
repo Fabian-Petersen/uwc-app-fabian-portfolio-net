@@ -52,8 +52,8 @@ const Login = () => {
     >
       <img className="h-[6rem] w-[6rem] mx-auto mb-6" src={logo} alt="logo" />
       <div className="px-8 flex flex-col h-full">
-        <h2 className="text-2xl">Login</h2>
-        <p className="text-[0.6rem] text-gray-300 mb-5 italic">
+        <h2 className="text-3xl">Login</h2>
+        <p className="text-[0.8rem] text-gray-400 mb-5 italic">
           Login to your account
         </p>
         <div className="flex flex-col gap-y-1 h-[60%]">

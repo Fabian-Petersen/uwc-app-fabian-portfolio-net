@@ -13,7 +13,7 @@ const FormRowInput = ({
 }) => {
   return (
     <div className="flex flex-col gap-2">
-      {labelText ? <label>{labelText}</label> : ""}
+      {labelText ? <label className="text-sm">{labelText}</label> : ""}
       {(inputType === "input" && (
         <input
           type={type}

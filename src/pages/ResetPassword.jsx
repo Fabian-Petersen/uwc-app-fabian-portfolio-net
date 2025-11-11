@@ -8,7 +8,7 @@ import resetPasswordImagePortrait from "../assets/images/resetPasswordImagePortr
 const ResetPassword = () => {
   const navigate = useNavigate();
   return (
-    <main className="grid grid-cols-1 place-items-center w-[auto] h-screen bg-base-100">
+    <main className="grid grid-cols-1 place-items-center w-screen h-screen bg-base-100">
       <div className="relative w-[20rem] h-[30rem] md:w-[40rem] md:h-[30rem] p-2 shadow-lg rounded-md md:grid md:grid-cols-2 md:gap-3 border border-gray-300 border-opacity-20">
         <picture>
           <source
